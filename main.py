@@ -18,7 +18,7 @@ def budget_calculator():
     print_header("BUDGET CALCULATOR")
     
     # Step 1: Get monthly income
-    income = float(input("Enter your monthly income: $"))
+    income = float(input("Please enter your monthly income: $"))
     
     # Step 2: Get expenses
     expenses = {}
@@ -26,7 +26,7 @@ def budget_calculator():
     
     while True:
         # Ask for expense category
-        category = input("Enter an expense category (or 'done' to finish): ").strip()
+        category = input("Please enter an expense category (or 'done' to finish): ").strip()
         
         if category.lower() == 'done':
             break
